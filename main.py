@@ -275,7 +275,7 @@ class Room2(Room):
                         [515, 250, 20, 100, -5, GREEN],
                         ]
 
-
+        # Add moving walls
         for item in moving_walls:
             moving_wall = MovingWall(item[0], item[1], item[2], item[3], item[4], item[5])
             self.movingwall_list.add(moving_wall)
